@@ -1,0 +1,5 @@
+table Bar {
+    gucci: string;
+}
+
+root_type Bar;
