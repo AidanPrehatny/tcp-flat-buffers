@@ -1,5 +1,18 @@
-table Bar {
-    gucci: string;
+union CommandType {
+    Gucci,
+    Prada
 }
 
-root_type Bar;
+table Commander {
+    cmd:CommandType;
+}
+
+table Gucci {
+    gucci:string;
+}
+
+table Prada {
+    prada: uint32;
+}
+
+root_type Commander;
