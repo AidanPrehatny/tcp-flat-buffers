@@ -11,10 +11,10 @@
   "devDependencies": {
     "@types/flatbuffers": "^1.9.1",
     "@types/node": "^11.11.4",
-    "ts-node": "^8.0.3"
+    "ts-node": "^8.2.0"
   },
   "dependencies": {
     "flatbuffers": "^1.10.2",
-    "ts-node": "^8.0.3"
+    "typescript": "^3.5.1"
   }
 }
